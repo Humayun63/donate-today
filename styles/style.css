@@ -43,6 +43,7 @@ section{
     margin: 0 auto;
     margin-top: 70px;
     width: 1140px;
+    text-align: center;
 }
 .section-title{
     font-size: 40px;
@@ -51,11 +52,16 @@ section{
 .section-description{
     color: #969696;
     padding: 0 80px;
+    width: 50%;
+    margin: 0 auto;
 }
 /* DONATE NOW SECTION STYLE */
 .donate-today{
     text-align: center;
     width: 750px;
+}
+.donate-today> .section-description{
+    width: 70%;
 }
 .donate-money, input[type="number"]{
     color: #707070;
@@ -95,4 +101,25 @@ input[type="number"]{
 input[type="submit"]{
     display: block;
     margin:25px auto;
+}
+/* DONATE PLAN STYLE */
+.plan-box-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+.plan-box{
+    width: 25%;
+    margin-top: 25px;
+    padding: 40px 30px;
+    background: #FFEEEE;
+    text-align: left;
+    border-radius: 5px;
+}
+.plan-box:hover{
+    background-color: #EDF5F6;
+}
+.plan-box .box-title{
+    margin: 15px 0;
+    font-size: 30px;
 }
