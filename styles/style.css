@@ -123,3 +123,27 @@ input[type="submit"]{
     margin: 15px 0;
     font-size: 30px;
 }
+
+/* CALLING FOR HELP */
+.calling-for-help article{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 85px;
+    text-align: left;
+    margin-bottom: 40px;
+}
+.article-title{
+    font-size: 40px;
+    margin: 15px 0;
+}
+.article-description{
+    font-size: 18px;
+    line-height: 1.3em;
+    margin: 10px 0;
+    padding-right: 100px;
+}
+.calling-for-help img{
+    width: 550px;
+    height: auto;
+}
